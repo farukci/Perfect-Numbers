@@ -8,14 +8,13 @@ body {
     background-size: cover;
     text-align: center;
 }
-
 h1{
     padding: 20px;
-    color: white;
-    font-size: bold;
+    padding-top: 100px;
+    color: blue;
+    font-size: 4rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #guess ,#check{
     outline: none;
     border: 2px solid lightgray;
@@ -23,8 +22,6 @@ h1{
     padding: 10px;
     font-size: 1rem;
 }
-
-
 #guess {
     width: 270px;
     margin-bottom: 10px;
@@ -35,20 +32,31 @@ h1{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 p {
     margin-top: 10px;
     margin-bottom:40px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    color: #F4EA74;
+    color: blue;
     text-shadow: 1px 1px black;
     font-weight: bold;
     font-size: 2rem;
 }
-.cardStyle {
-    margin: auto auto;
-    background-color: #ffa726;
+.info{
+    width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom:40px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-size: 2rem;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.info p{
+    color: black;
+    font-size: 1.5rem;
 }

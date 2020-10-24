@@ -13,8 +13,8 @@ function perfectNumber() {
     let sum_dividers = 0;
 
     if (number < 1 || number === "" || isNaN(number)) {
-        document.getElementById("answer").innerHTML =
-            "⚡⚡Please Enter A Positive Number⚡⚡";
+        document.getElementById("answer").innerHTML ="Please enter a positive number";
+        document.getElementById("answer").style.color= "grey";
     } else {
         for (let i = 1; i < number; i++) {
             if (number % i == 0) {
@@ -23,13 +23,11 @@ function perfectNumber() {
             }
         }
         if (sum_dividers == number) {
-            document.getElementById(
-                "answer"
-            ).innerHTML = `${number} is a perfect number 🎯`;
+            document.getElementById("answer").innerHTML = `${number} is a perfect number`;
+            document.getElementById("answer").style.color= "green";
         } else {
-            document.getElementById(
-                "answer"
-            ).innerHTML = `${number} is not a perfect number ❌`;
+            document.getElementById("answer").innerHTML = `${number} is not a perfect number`;
+            document.getElementById("answer").style.color= "red";
         }
         document.getElementById("guess").value = "";
         document.getElementById("guess").focus();
