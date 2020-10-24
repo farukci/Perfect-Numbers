@@ -8,4 +8,4 @@ In number theory, a perfect number is a positive integer that is equal to the su
 
 You can check the live page with this link:  <a href="https://farukci.github.io/Perfect-Numbers/">Perfect Numbers</a>
 
-You can check the mobile app with this link: <a href="https://snack.expo.io/B_6dGiAHv">Perfect Numbers Mobile App</a>
+You can check the mobile app with this link: <a href="https://snack.expo.io/@farukcihan/perfect-numbers">Perfect Numbers Mobile App</a>
